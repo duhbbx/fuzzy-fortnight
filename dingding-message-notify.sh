@@ -1,5 +1,8 @@
 #!/bin/bash
 
+
+# 脚本运行方法: nohup  bash dingding-message-notify.sh  &
+
 pkill -9 dbus-monitor
 
 # 双引号中包含的是过滤条件
